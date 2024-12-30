@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image: url(../images/download\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .container {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: url(../images/download.jpeg);
+    animation: gradientAnimation 10s ease infinite;
+    padding: 20px 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 60%;
+    width: 25%;
+  }
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .counter {
+    margin: 20px 0;
+  }
+  
+  #counter-value {
+    font-size: 3rem;
+    color:white;
+    margin: 0;
+  }
+  
+  .buttons button {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    margin-left: 75px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #increment {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #decrement {
+  
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #reset {
+ 
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.9;
+  }
+  
